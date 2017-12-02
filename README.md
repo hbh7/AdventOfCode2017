@@ -1,2 +1,2 @@
-# ChessAndAI
-Chess in Java with AI - Personal project to learn about java
+# AdventOfCode
+My solutions to [AdventOfCode](http://adventofcode.com/)
