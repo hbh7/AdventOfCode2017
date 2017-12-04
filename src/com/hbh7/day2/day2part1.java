@@ -9,14 +9,13 @@ public class day2part1 {
 
     public static void main(String[] args) throws IOException {
 
-        FileInputStream fis = new FileInputStream("out/production/AdventOfCode2017/com/hbh7/day2/input.txt");
+        FileInputStream fis = new FileInputStream("out/production/AdventOfCode2017/com/hbh7/day2/egblipInput.txt");
 
         BufferedReader br = new BufferedReader(new InputStreamReader(fis));
 
         String line;
 
         int finalAnswer = 0;
-        int prevNum = 0;
         int highestNum = 0;
         int lowestNum = 65536;
         int currentNum = 0;
@@ -51,8 +50,8 @@ public class day2part1 {
 
         }
 
-        System.out.println("----------");
-        System.out.println("Final Answer: " + finalAnswer);
+        println("----------");
+        println("Final Answer: " + finalAnswer);
 
         br.close();
     }
