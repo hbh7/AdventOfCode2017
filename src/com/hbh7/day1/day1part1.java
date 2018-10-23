@@ -62,7 +62,8 @@ public class day1part1 {
             }
 
         }
-
+        
+        //Print answer
         System.out.println("----------");
         System.out.println("Final Answer: " + finalAnswer);
 
